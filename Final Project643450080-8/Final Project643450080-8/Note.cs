@@ -32,7 +32,7 @@ namespace Final_Project643450080_8
                     Console.WriteLine("Note:" + data[1] + "\n");
                 }
             }
-            catch (FieldAccessException e)
+            catch (Exception e)
             {
                 Console.WriteLine("Error: File not found.");
             }

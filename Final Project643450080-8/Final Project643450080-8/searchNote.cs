@@ -29,7 +29,7 @@ namespace Final_Project643450080_8
                 file.Close();
 
             }
-            catch (FileNotFoundException e)
+            catch (Exception e)
             {
                 Console.WriteLine("Error: File not found.");
             }
