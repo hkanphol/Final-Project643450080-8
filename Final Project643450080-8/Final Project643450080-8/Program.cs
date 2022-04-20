@@ -86,7 +86,6 @@ namespace Final_Project643450080_8
                             Console.WriteLine("\t[3] Return to main menu\n", ColorTranslator.FromHtml("#D95562"));
                             Console.Write("Your choice >> ", ColorTranslator.FromHtml("#D197DB"));
                             choiceS = int.TryParse(Console.ReadLine(), out choiceSearch);
-                            Console.Clear();
 
                             if (choiceS)
                             {
