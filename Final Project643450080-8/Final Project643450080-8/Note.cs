@@ -82,7 +82,7 @@ namespace Final_Project643450080_8
                     Console.WriteLine("File deleted.");
 
                 }
-            }catch(FileNotFoundException e)
+            }catch(Exception e)
             {
                 Console.WriteLine("File not found");
             }
