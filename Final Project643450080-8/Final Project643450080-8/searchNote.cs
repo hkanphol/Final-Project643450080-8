@@ -22,7 +22,7 @@ namespace Final_Project643450080_8
                 while ((line = file.ReadLine()) != null)
                 {
                     string[] data = line.Split(",");
-                    Console.WriteLine("Title:" + data[0]);
+                    Console.WriteLine("Filename:" + data[0]);
                     Console.WriteLine("NOte:" + data[1] + "\n");
                 }
 
