@@ -8,6 +8,7 @@
 
 <br/><br/>
 ### โครงสร้างของโปรแกรม
+```mermaid
 classDiagram
     Program <|-- Note
     Program <|-- searchNote
@@ -22,6 +23,7 @@ classDiagram
     class searchNote{
         +showHistory()
     }
+```
 <br/><br/>
 ### ผู้พัฒนาโปรแกรม
 น.ส.พรธิตา ขานพล  643450080-8                                                                                             
